@@ -4,12 +4,11 @@ const FilmYear = ({data}) => {
 
   console.log(data);
   return (
-    <div>
-
-      {data.map(item=> <div className="border-0 fs-4 fw-bold text-secondary " key={item.id}>{item.date}</div> )
-      }
-
-    </div>
+    <div className="d-flex flex-column" >
+            {
+                data.map(item=> <button type="button" className=" border-4   bg-info mb-2 p-1 rounded-2 fs-4 fw-bold text-secondary border-bottom border-warning " key={item.id}>{item.date}</button> )
+            }
+        </div>
   )
 }
 
