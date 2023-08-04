@@ -2,7 +2,7 @@
 
 const FilmYear = ({data}) => {
 
-  console.log(data);
+  // console.log(data);
   return (
     <div className="d-flex flex-column" >
             {
