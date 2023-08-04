@@ -6,8 +6,8 @@ import { data } from "../helper/data"
 const Home = () => {
   return (
     <div className="d-flex gap-5 p-3">
-        <FilmYear/>
-        <FilmInfo/>
+        <FilmYear data={data}/>
+        <FilmInfo data={data}/>
         
     </div>
   )
