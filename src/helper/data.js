@@ -21,7 +21,7 @@ export const data = [
   },
   {
     id: 3,
-    title: "Bravheart",
+    title: "Braveheart",
     body: "Braveheart is an epic historical drama film released in 1995. Directed and starring Mel Gibson, the movie is set in 13th-century Scotland. It follows the story of William Wallace, a Scottish warrior who leads a rebellion against English oppression. With his bravery and charisma, Wallace unites the Scots in their fight for independence. They achieve significant victories in battles such as the Battle of Stirling Bridge. However, the struggle for freedom comes at a cost, as Wallace faces personal sacrifices and tragic events. Braveheart explores themes of justice, love, freedom, and honor, delivering a captivating and unforgettable cinematic experience.",
     rate: 8.7,
     tags: ["Adventure", "Drama", "War", "Action"],
