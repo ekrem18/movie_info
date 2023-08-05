@@ -1,16 +1,15 @@
-import FilmInfo from "./FilmInfo"
-import FilmYear from "./FilmYear"
+import FlimInfo from "./FlimInfo"
+import FlimYear from "./FlimYear"
 import { data } from "../helper/data"
 import { useState } from "react"
 
-
 const Home = () => {
-  const [info, setInfo] = useState("")
+  const [info, setInfo] = useState(2022)
+
   return (
-    <div className="d-flex gap-5 p-3">
-        <FilmYear data={data} setInfo={setInfo}/>
-        <FilmInfo data={data} info={info}/>
-        
+    <div className="d-flex gap-5 p-3 justify-content-center">
+      <FlimYear data={data} setInfo={setInfo} />
+      <FlimInfo data={data} info={info}  />
     </div>
   )
 }
