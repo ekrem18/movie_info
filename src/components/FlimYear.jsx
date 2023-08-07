@@ -6,7 +6,7 @@ const FlimYear = ({ data, setInfo }) => {
         <div className="d-flex flex-column" >
             {
                 data.map(item=> 
-                <button onClick={()=>setInfo(item.date)} type="button" className=" btn mt-3 " key={item.id}>
+                <button onClick={()=>setInfo(item.date)} type="button" className="year btn mt-3 " key={item.id}>
                 {item.date}
                 </button> )
             }

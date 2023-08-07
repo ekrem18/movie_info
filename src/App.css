@@ -1,3 +1,23 @@
+body{
+    background-image:url(../public/img/1117132.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.home{
+    background-color:rgba(255, 255, 255, 0.342);
+    
+}
+
+.info{
+    font-size: large;
+    font-weight: 700;
+}
+
+
+
+
 .btn{
     color: #fff;
     background: linear-gradient(135deg, #77cdff, #312a6c);
@@ -11,6 +31,7 @@
     overflow: hidden;
     position: relative;
     transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    
 }
 .btn:hover{
     color: #fff;

@@ -11,7 +11,7 @@ const FlimInfo = ({ data, info }) => {
         <div className=" right_card pt-3 w-50 d-flex">
             <div>
                 <h1 className="text-primary">{dataObj?.title}</h1>
-                <p>{dataObj?.body}</p>
+                <p className="info">{dataObj?.body}</p>
                 <p className="text-danger">{dataObj?.tags.join(" / ")}</p>
                 <p>
                     <span>{dataObj.rate < 6 ? "⭐⭐⭐" : dataObj.rate < 8 ? "⭐⭐⭐⭐" : dataObj.rate > 8 ? "⭐⭐⭐⭐⭐" : ""} </span>
